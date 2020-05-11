@@ -2,6 +2,7 @@ from datetime import datetime
 
 # 课程信息表
 from django.db import models
+from organization.models import CourseOrg
 
 
 class Course(models.Model):
@@ -28,7 +29,6 @@ class Course(models.Model):
     click_nums = models.IntegerField(default=0, verbose_name=u"点击数")
     add_time = models.DateTimeField(default=datetime.now, verbose_name=u"添加时间")
     course_org = models.ForeignKey(CourseOrg, on_delete=models.CASCADE, verbose_name="所属机构", null=True, blank=True)
-    
 
     class Meta:
         verbose_name = u"课程"

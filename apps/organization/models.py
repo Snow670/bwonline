@@ -24,34 +24,27 @@ class CourseOrg(models.Model):
         ("gx", u"高校"),
         ("gr", u"个人"),
     )
-    name = models.CharField(max_length=50, verbose_name=u"机构名称")
-    # 机构描述，后面会替换为富文本展示
-    desc = models.TextField(verbose_name=u"机构描述")
+    name = models.CharField('机构名称',max_length=50)
+    desc = models.TextField('机构描述')
     category = models.CharField(max_length=20, choices=ORG_CHOICES, verbose_name=u"机构类别", default="pxjg")
-    click_nums = models.IntegerField(default=0, verbose_name=u"点击数")
-    fav_nums = models.IntegerField(default=0, verbose_name=u"收藏数")
+    click_nums = models.IntegerField('点击数',default=0)
+    fav_nums = models.IntegerField('收藏数',default=0)
     students = models.IntegerField("学习人数",default=0)
     course_nums = models.IntegerField("课程数",default=0)
-    image = models.ImageField(
-        upload_to="org/%Y/%m",
-        verbose_name=u"封面图",
-        max_length=100)
-    address = models.CharField(max_length=150, verbose_name=u"机构地址")
-    # 一个城市可以有很多课程机构，通过将city设置外键，变成课程机构的一个字段
-    # 可以让我们通过机构找到城市
-    city = models.ForeignKey(CityDict, verbose_name=u"所在城市", on_delete=models.CASCADE)
-    add_time = models.DateTimeField(default=datetime.now, verbose_name=u"添加时间")
+    image = models.ImageField('logo',upload_to='org/%Y%m',max_length=100)
+    address = models.CharField('机构地址',max_length=150,)
+    city = models.ForeignKey(CityDict,verbose_name='所在城市',on_delete=models.CASCADE)
+    add_time = models.DateTimeField(default=datetime.now)
 
     class Meta:
-        verbose_name = u"课程机构"
+        verbose_name = '课程机构'
         verbose_name_plural = verbose_name
-        
-    def get_teacher_nums(self):
-        #获取机构的教师数
-        return self.teacher_set.all().count()
 
     def __str__(self):
         return self.name
+
+    # 添加字段
+    category = models.CharField(max_length=20, choices=ORG_CHOICES, verbose_name=u"机构类别", default="pxjg")
 
 
 # 讲师
@@ -66,9 +59,8 @@ class Teacher(models.Model):
     points = models.CharField(max_length=50, verbose_name=u"教学特点")
     click_nums = models.IntegerField(default=0, verbose_name=u"点击数")
     fav_nums = models.IntegerField(default=0, verbose_name=u"收藏数")
-    teacher_age = models.IntegerField('年龄',default=25)
     image = models.ImageField(
-        default='',
+        default= '',
         upload_to="teacher/%Y/%m",
         verbose_name="头像",
         max_length=100)
@@ -77,9 +69,3 @@ class Teacher(models.Model):
     class Meta:
         verbose_name = u"教师"
         verbose_name_plural = verbose_name
-
-    def __str__(self):
-        return "[{0}]的教师: {1}".format(self.org, self.name)
-
-    def get_course_nums(self):
-        return self.course_set.all().count()

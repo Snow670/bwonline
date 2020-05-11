@@ -82,9 +82,9 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'bwonline_db',
+        'NAME':'bw',
         'USER':'root',
-        'PASSWORD':'123456',
+        'PASSWORD':'root',
         'HOST':'127.0.0.1',
         'PORT':'3306'
     }
@@ -135,10 +135,10 @@ STATICFILES_DIRS = (
 # 配置邮箱
 EMAIL_HOST = "smtp.qq.com"
 EMAIL_PORT = 25   
-EMAIL_HOST_USER = "1046244623@qq.com"
-EMAIL_HOST_PASSWORD = ""
+EMAIL_HOST_USER = "1419517126@qq.com"
+EMAIL_HOST_PASSWORD = "hcuuamtyygumjaee"
 EMAIL_USE_TLS = True
-EMAIL_FROM = "1046244623@qq.com"
+EMAIL_FROM = "1419517126@qq.com"
 
 
 # 设置上传文件的路径

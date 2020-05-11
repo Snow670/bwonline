@@ -99,7 +99,7 @@ class ActiveUserView(View):
         else:
             return render(request, "active_fail.html")
 
-#找回密码
+
 class ForgetPwdView(View):
     def get(self,request):
         forget_form = ForgetPwdForm()
@@ -113,7 +113,7 @@ class ForgetPwdView(View):
         else:
             return render(request,'forgetpwd.html',{'forget_form':forget_form})
 
-#重置密码
+
 class ResetView(View):
     def get(self,request,active_code):
         all_records = EmailVerifyRecord.objects.filter(code=active_code)
@@ -125,7 +125,6 @@ class ResetView(View):
             return render(request,'active_fail.html')
         return render(request,'login.html')
 
-#修改密码
 class ModifyPwdView(View):
     def post(self, request):
         modify_form = ModifyPwdForm(request.POST)
