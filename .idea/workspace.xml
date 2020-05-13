@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41e2f0e7-fc1d-41f7-9d2f-85df55c78ee4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/apps/course/migrations/0002_auto_20200511_1455.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/course/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/course/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/course/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/operation/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/operation/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/operation/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/operation/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/operation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/operation/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/organization/migrations/0002_auto_20200511_1455.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/organization/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/organization/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/adminx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0002_banner_emailverifyrecord.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0003_auto_20200511_1905.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0004_auto_20200511_1906.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/migrations/0005_remove_userprofile_address.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/utils/email_send.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/utils/email_send.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bwOnline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bwOnline/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bwOnline/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bwOnline/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bwOnline/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/bwOnline/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/animate.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/animate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/aui.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/aui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/lq.datetimepick.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/lq.datetimepick.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/muke/common-less.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/muke/common-less.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/muke/course/common-less.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/muke/course/common-less.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/muke/course/learn-less.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/muke/course/learn-less.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/AdrInputPopDiv.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/AdrInputPopDiv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/area.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/area.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/autocomplete-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/autocomplete-init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/deco-comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/deco-comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/deco-common.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/deco-common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/deco-user.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/deco-user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/fliplightbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/fliplightbox.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/fold.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/fold.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jQuery.artTxtCount.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jQuery.artTxtCount.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jcarousel.connected-carousels.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jcarousel.connected-carousels.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-migrate-1.2.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery-migrate-1.2.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-powerFloat-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery-powerFloat-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery-xmenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery-xmenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.autocomplete.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.autocomplete.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.formset.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.formset.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.imagezoom.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.imagezoom.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.jcarousel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.jcarousel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/jquery.uploadify.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.uploadify.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/lq.datetimepick.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/lq.datetimepick.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/datePicker/mobiscroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/datePicker/mobiscroll.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/jquery.raty.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.raty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/jquery.timer.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.timer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/jquery.upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/jquery.upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/laydate/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/laydate/laydate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/laydate/need/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/laydate/need/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/laydate/skins/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/laydate/skins/default/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/layer/extend/layer.ext.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/layer/extend/layer.ext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/layer/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/layer/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/layer/skin/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/layer/skin/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/layer/skin/layer.ext.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/layer/skin/layer.ext.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/queryCity/js/public.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/queryCity/js/public.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/queryCity/js/public2.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/queryCity/js/public2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/plugins/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/plugins/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/selectUi.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/selectUi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/unslider.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/unslider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/validateDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/validateDialog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/wechat.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/wechat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/403.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/403.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/500.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/500.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/active_fail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/active_fail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/course-comment.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/course-comment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/course-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/course-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/course-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/course-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/course-video.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/course-video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/forgetpwd.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/forgetpwd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/org-detail-course.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/org-detail-course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/org-detail-desc.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/org-detail-desc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/org-detail-homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/org-detail-homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/org-detail-teachers.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/org-detail-teachers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/org-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/org-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/org_base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/org_base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/password_reset.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/send_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/send_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/teacher-detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/teacher-detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/teachers-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/teachers-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/usercenter-fav-course.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-fav-course.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/usercenter-fav-org.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-fav-org.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/usercenter-fav-teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-fav-teacher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/usercenter-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/usercenter-message.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-message.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/usercenter-mycourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/usercenter-mycourse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/留言板.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/留言板.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/course/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2390">
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-215">
+              <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="344" />
+    <option name="y" value="9" />
+    <option name="width" value="1133" />
+    <option name="height" value="716" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="bwOnline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bwOnline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bwOnline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bwOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bwOnline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bwOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bwOnline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bwOnline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="organization" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/WeChat Files/x141915/FileStorage/File/2020-05/项目/MxOnline-master" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="bwOnline" type="Python.DjangoServer" factoryName="Django server">
+      <module name="bwOnline" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41e2f0e7-fc1d-41f7-9d2f-85df55c78ee4" name="Default Changelist" comment="" />
+      <created>1589276572914</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589276572914</updated>
+      <workItem from="1589276578402" duration="237000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="237000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1452345" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/course/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2390">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'pure_pagination',
 ]
 
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

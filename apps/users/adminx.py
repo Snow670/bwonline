@@ -5,21 +5,16 @@ from course.models import *
 from organization.models import *
 from operation.models import *
 
-class BaseSetting(object):
-    '''
-    xadmin的基础配置
-    '''
-    enabel_themes = True # 开启主题功能
+class Basesettings(object):
+    # xadmin基础配置
+    enable_themes = True   #开启主题功能
     use_bootswatch = True
-# x admin 全局配置参数信息设置
-class GlobalSettings(object):
-    '''
-        设置网站标题和页脚
-    '''
-    site_title = "北网在线后台管理"
-    site_footer = "Powered By 1903C - 2020"
-    # menu_style = "accordion"
 
+class Globalsettings(object):
+    # 设置网站标题和页脚
+    site_title = '北网在线后台管理-美少女&小仙女'
+    site_footer = 'TZMM - Powered By 1903C-2020'
+    # menu_style = 'accordion'
     def get_site_menu(self):
         return (
             {'title': '课程管理', 'menus': (
@@ -46,27 +41,20 @@ class GlobalSettings(object):
                 {'title': '用户咨询', 'url': self.get_model_url(UserAsk, 'changelist')},
                 {'title': '首页轮播', 'url': self.get_model_url(Banner, 'changelist')},
             )},)
-   
+# 注册
+xadmin.site.register(views.BaseAdminView,Basesettings)
+xadmin.site.register(views.CommAdminView,Globalsettings)
 
-xadmin.site.register(views.BaseAdminView,BaseSetting)
-xadmin.site.register(views.CommAdminView,GlobalSettings)
 
 class EmailVerifyRecordAdmin(object):
-    '''
-        后台展示的内容
-        后台可以搜索的内容
-        后台过滤器可以使用的内容
-    '''
     list_display = ['code','email','send_type','send_time']
     search_fields = ['code','email','send_type']
     list_filter = ['code','email','send_type','send_time']
-
-xadmin.site.register(EmailVerifyRecord,EmailVerifyRecordAdmin)
+xadmin.site.register(EmailVerifyRecord,EmailVerifyRecordAdmin )
 
 
 class BannerAdmin(object):
     list_display = ['title','image','url','index','add_time']
     search_fields = ['title','image','url','index']
     list_filter = ['title','image','url','index','add_time']
-
 xadmin.site.register(Banner,BannerAdmin)
