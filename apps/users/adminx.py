@@ -12,9 +12,10 @@ class Basesettings(object):
 
 class Globalsettings(object):
     # 设置网站标题和页脚
-    site_title = '北网在线后台管理-美少女&小仙女'
-    site_footer = 'TZMM - Powered By 1903C-2020'
-    # menu_style = 'accordion'
+    site_title = '北网在线后台管理'
+    site_footer = 'Powered By 1903C-2020'
+    menu_style = 'accordion'
+
     def get_site_menu(self):
         return (
             {'title': '课程管理', 'menus': (
