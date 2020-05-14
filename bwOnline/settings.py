@@ -18,7 +18,7 @@ AUTH_USER_MODEL = 'users.UserProfile'
 AUTHENTICATION_BACKENDS = (
     'users.views.CustomBackend',
 )
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'operation',
     'organization',
     'pure_pagination',
+    'DjangoUeditor',
 ]
 
 

@@ -4,7 +4,7 @@ from operation.models import UserAsk
 
 
 class UserAskForm(forms.ModelForm):
-
+    '''我要咨询'''
     class Meta:
         model = UserAsk
         fields = ['name', 'mobile', 'course_name']
