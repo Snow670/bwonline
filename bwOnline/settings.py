@@ -84,9 +84,9 @@ pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'bw',
+        'NAME':'bwonline',
         'USER':'root',
-        'PASSWORD':'root',
+        'PASSWORD':'123456',
         'HOST':'127.0.0.1',
         'PORT':'3306'
     }
@@ -145,4 +145,4 @@ EMAIL_FROM = "1419517126@qq.com"
 
 # 设置上传文件的路径
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR,'media')   #指定根目录
+MEDIA_ROOT = os.path.join(BASE_DIR,'static/media')   #指定根目录
